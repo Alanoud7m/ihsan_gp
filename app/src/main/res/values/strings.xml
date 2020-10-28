@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">إحسان</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+    <string name="home">الرئيسية</string>
+    <string name="account">حسابي</string>
+    <string name="order">طلباتي</string>
+    <string name="call">اتصل بنا</string>
+    <string name="logout">تسجيل الخروج</string>
+
+</resources>

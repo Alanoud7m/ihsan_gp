@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1B7A6E6E"
+    tools:context=".NavaigationCharity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="0dp"
+            android:background="#B2615757"
+            app:title="."
+            app:titleTextColor="#8c8484">
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="إحسان "
+                android:layout_gravity="center"
+                android:textColor="#070707"
+                android:textSize="30sp"
+                />
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="312dp"
+            android:layout_height="294dp"
+            android:layout_below="@id/toolBar"
+            app:srcCompat="@drawable/gp_logo"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageView"
+            android:text="مرحبًا بك ! "
+            android:textColor="#000000"
+            android:textSize="36sp"
+           android:layout_centerHorizontal="true"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:id="@+id/firstRow"
+            android:layout_below="@id/textView5">
+            <Button
+                android:id="@+id/addItemBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background"
+                android:text="إضافة قطعة"
+                android:textSize="25dp"/>
+            <Button
+                android:id="@+id/viewItemsBtn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background"
+                android:text="عرض القطع"
+                android:textSize="25dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_below="@id/firstRow">
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background"
+                android:text="طلبات المستفيدين"
+                android:textSize="20dp"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="@drawable/button_background"
+                android:text="التحقق من المستفيدين"
+                android:textSize="20dp"/>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        app:menu="@menu/naviagation_c"
+        android:layout_gravity="start"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "328401981064",
+    "firebase_url": "https://ihsan-c6744.firebaseio.com",
+    "project_id": "ihsan-c6744",
+    "storage_bucket": "ihsan-c6744.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:328401981064:android:755d4eeeacaef78925193d",
+        "android_client_info": {
+          "package_name": "com.example.ihsan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "328401981064-4vcuu48ga3pa5pm8ff343an1kqlm5hrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUCKAW8MHPS4kC61U2OC5mMcT-OQ9hFbg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "328401981064-4vcuu48ga3pa5pm8ff343an1kqlm5hrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

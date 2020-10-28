@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ihsan">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".CharityItemsActivity"></activity>
+        <activity android:name=".CharityAddItemActivity" />
+        <activity android:name=".CharityHomeActivity" />
+        <activity android:name=".loginAdmin" />
+        <activity android:name=".loginD" />
+        <activity android:name=".loginC" />
+        <activity android:name=".loginB" />
+        <activity android:name=".incomeImageScreen" />
+        <activity android:name=".housingImageScreen" />
+        <activity android:name=".NavaigationDelivery" />
+        <activity android:name=".NavaigationCharity" />
+        <activity android:name=".NavaigationAdmin" />
+        <activity android:name=".NavaigationActivity" />
+        <activity android:name=".d_ViewAccount" />
+        <activity android:name=".d_UpdateAccount" />
+        <activity android:name=".c_ViewAccount" />
+        <activity android:name=".c_UpdateAccount" />
+        <activity android:name=".b_ViewAccount" />
+        <activity android:name=".b_UpdateAccount" />
+        <activity android:name=".App_home" />
+        <activity android:name=".createAccountForDelivery" />
+        <activity android:name=".createAccountForCharity" />
+        <activity android:name=".createAccountForBeneficiary" />
+        <activity android:name=".App_interface">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+</manifest>

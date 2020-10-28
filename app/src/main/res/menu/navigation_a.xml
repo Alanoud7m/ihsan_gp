@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:iconTint="#FFFFFF"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/beneficiary"
+        android:icon="@drawable/ic_baseline_people_24"
+        android:title="المستفيدين" />
+
+    <item
+        android:id="@+id/cahrity"
+        android:icon="@drawable/ic_baseline_supervised_user_circle_24"
+        android:title="الجمعيات" />
+
+    <item
+        android:id="@+id/delivery"
+        android:icon="@drawable/ic_baseline_people_alt_24"
+        android:title="متطوعوا التوصيل" />
+
+    <item
+        android:id="@+id/check"
+        android:icon="@drawable/ic_baseline_check_circle_24"
+        android:title="التحقق من الجمعيات" />
+
+    <item
+        android:id="@+id/display"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        android:title="عرض تقييم متطوعي التوصيل" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="تسجيل الخروج" />
+
+
+
+</menu>

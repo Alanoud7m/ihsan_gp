@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/address"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:iconTint="#FFFFFF"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_baseline_account_box_24"
+        android:title="@string/account" />
+
+    <item
+        android:id="@+id/order"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="@string/order" />
+
+    <item
+        android:id="@+id/call"
+        android:icon="@drawable/ic_baseline_call_24"
+        android:title= "تواصل معنا" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@android:drawable/ic_lock_power_off"
+        android:title="@string/logout" />
+
+
+
+</menu>
