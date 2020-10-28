@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "342942993257",
+    "firebase_url": "https://ihsan-8aeae.firebaseio.com",
+    "project_id": "ihsan-8aeae",
+    "storage_bucket": "ihsan-8aeae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342942993257:android:9239d2b9ddc4eddf704bf8",
+        "android_client_info": {
+          "package_name": "com.example.ihsan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342942993257-gu84u8221m2k6mj65sn8opg50vbnorou.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ihsan",
+            "certificate_hash": "3269d99717b8c0456e550ae635cdbc2af31d8a70"
+          }
+        },
+        {
+          "client_id": "342942993257-dn3nhmth7j36vleuo1mtt552jhma6jfg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR6yVtQcKq4tJWQXVZeWTEnqwzWgBemqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342942993257-dn3nhmth7j36vleuo1mtt552jhma6jfg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
